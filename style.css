@@ -6,7 +6,24 @@ body{
 }
 .cabecalho{
     text-align: center;
+    font-family: cormorant;
 }
+  .cabecalho .redes-sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     gap: 25px ;
+  }
+   .cabecalho .redes-sociais a{
+    width: 100px;
+    border: solid 1px ;
+    background-color:#913175;
+    color: #E9E8E8;
+    padding: 8px 0px;
+    text-align: center;
+    border-radius: 8px;
+   }
 
 .container .letra{
     display: flex;
@@ -14,14 +31,14 @@ body{
     justify-content: space-evenly;
 }
 
-.container .fotoAudio{
+.container .foto{
     display: flex;
     flex-direction: column;
    justify-content: center;
    align-items: center;
    padding: 8px;
 }
-    .fotoAudio img{
+    .foto img{
     display: flex;
     justify-content: center;
     height: 20%;
