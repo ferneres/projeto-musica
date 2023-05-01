@@ -49,26 +49,30 @@ body{
     gap: 20px;
     margin: 20px 0;
 }
-    .container .foto {
+    .container .fotoAudio {
         display: flex;
         flex-direction: column;
         justify-content: left;
         align-items: left;
         padding: 8px;
     }
-        .container .foto h1{
+        .container .fotoAudio h1{
             text-align: center;
             font-family: cormorant ;
         }
   
-  .foto img {
+  .fotoAudio img {
     display: flex;
     height: 400px; 
     width: 400px; 
     border: 2px solid black;
     border-radius: 20%;
   }
-
+  .fotoAudio audio{
+    width: 350px;
+    height: 35px;
+    margin-left: 25px;
+}
 main{
     display: flex;
 }
@@ -81,16 +85,21 @@ main{
     .container {
         flex-direction: column;
     }
-    .container .foto {
+    .container .fotoAudio {
         align-items: center;
     }
-    .container .foto img {
+    .container .fotoAudio img {
     display: flex;
     height: 300px; 
     width: 300px; 
     border: 2px solid black;
     border-radius: 20%;
     justify-items: center;
+    }
+    .fotoAudio audio{
+        width: 250px;
+        height: 35px;
+        margin-left: 25px;
     }
     .cabecalho .redes-sociais a {
         width: 50%;
